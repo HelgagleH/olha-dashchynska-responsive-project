@@ -90,15 +90,15 @@ a {
     width: 450px;
 }
 
-.wrap-img_1,
-.wrap-img_2 {
+.wrap-img-1,
+.wrap-img-2 {
     border: 1px solid #F8F9FA;
     background-color: #F8F9FA;
     padding: 30px 10px;
 }
 
-.wrap-img_2 {
-    height: 439px;
+.wrap-img-2 {
+    padding: 76px 10px 77px 10px;
 }
 
 .btn {
