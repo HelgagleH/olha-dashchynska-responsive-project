@@ -3,9 +3,10 @@
 }
 
 :root {
-    --border: 2px solid #0094D3;
+    --border: 2px solid #0b5a77;
     --background-color: #94d4f0;
     --color: #0b5a77;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .wrapper {
@@ -53,17 +54,13 @@ a {
 }
 
 .contact-button {
-    background-color: #0094D3;
+    background-color: var(--color);
     color: #FFFFFF;
 }
 
 .about-button {
     color: var(--color);
-}
-
-.contact-button:hover,
-.about-button:hover {
-    cursor: pointer;
+    font-weight: 500;
 }
 
 .info {
@@ -101,16 +98,6 @@ a {
     padding: 76px 10px 77px 10px;
 }
 
-.btn {
-    color: #0094D3;
-}
-
-.other-button {
-    color: #FFFFFF;
-    background-color: #0094D3;
-    padding: 16px 13px;
-}
-
 .col-md-6 p {
     font-size: 18px;
     margin-bottom: 15px;
@@ -121,21 +108,15 @@ a {
 }
 
 .site-link {
-    color: #FFFFFF;
+    border-radius: 4px;
+    padding: 20px 15px;
     text-decoration: none;
-    cursor: pointer;
-    padding: 16px 13px;
+    text-transform: capitalize;
+    background: var(--color);
+    box-shadow: var(--box-shadow);
+    color: white;
 }
 
-.other-button:hover {
-    color: #0b5a77 !important;
-    border: 1px solid #0b5a77;
-
-}
-
-.site-link:hover {
-    color: #0b5a77;
-}
 
 #contact {
     margin-top: 50px;
