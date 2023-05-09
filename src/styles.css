@@ -100,7 +100,6 @@ a {
 
 .col-md-6 p {
     font-size: 18px;
-    margin-bottom: 15px;
 }
 
 .container .row {
@@ -117,6 +116,9 @@ a {
     color: white;
 }
 
+.other-button {
+    margin-top: 35px;
+}
 
 #contact {
     margin-top: 50px;
