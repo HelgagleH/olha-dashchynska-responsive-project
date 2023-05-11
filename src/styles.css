@@ -10,7 +10,7 @@
 }
 
 .wrapper {
-    margin: 70px auto;
+    margin: 55px auto;
     text-align: center;
 }
 
@@ -126,4 +126,55 @@ a {
 
 .image_2 {
     margin-top: 30px;
+}
+
+@media (max-width: 576px) {
+    nav {
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    .wrap-img-1,
+    .wrap-img-2 {
+        display: none;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .image_1,
+    .image_2 {
+        max-width: 95%;
+    }
+}
+
+@media (max-width: 820px) {
+    nav {
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    .image_1,
+    .image_2 {
+        max-width: 95%;
+    }
 }
